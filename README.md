@@ -1,1 +1,1 @@
-curl [https://raw.githubusercontent.com/phpliv/selenium/master/install] | bash
+curl 「https://raw.githubusercontent.com/phpliv/selenium/master/install」 | bash
