@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo apt-get update && sudo apt-get install -y unzip xvfb libxi6 libgconf-2-4 default-jdk firefox && wget https://github.com/mozilla/geckodriver/releases/download/v0.26.0/geckodriver-v0.26.0-linux64.tar.gz && tar xzf geckodriver-v0.26.0-linux64.tar.gz && sudo mv geckodriver /usr/bin/geckodriver && mkdir /root/selenium && cd /root/selenium && wget https://selenium-release.storage.googleapis.com/3.141/selenium-server-standalone-3.141.59.jar
